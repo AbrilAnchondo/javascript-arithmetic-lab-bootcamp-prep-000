@@ -30,11 +30,13 @@ function dec(n) {
  return n;
   }*/
 
-function ma
-
-function preserveDecimal(n) {
- return parseFloat (n);
+function makeInt (n) {
+  return parseFloat (n, 10);
 }
+
+/*function preserveDecimal(n) {
+ return parseFloat (n);
+}*/
 
     
   
